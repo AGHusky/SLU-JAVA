@@ -41,7 +41,7 @@ public class AlingNenaStore {
         System.out.println("Total Discount: " + TotalDiscount);
 
         AmountTobePaid = TotalPurchaseAmount - TotalDiscount;
-        System.out.println("Amount to be pain: " + AmountTobePaid);
+        System.out.println("Amount to be paid: " + AmountTobePaid);
 
         Change = Cash - AmountTobePaid;
         if (Change < 0){
