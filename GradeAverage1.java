@@ -1,4 +1,8 @@
 /*
+Name: Christian Nyl M. Pulmano
+* Programming Date: September 21,2023
+* Activity Name and Number: Prelim Exercise Number 9
+
 Analysis:
 Input: 10 pairs of grades and units
 Processes:
@@ -121,9 +125,11 @@ public class GradeAverage1 {
         totalGrade = totalGrade + grade * units; // totalGrade += grade* units;
         totalUnits = totalUnits + units;
 
-        average = totalGrade/totalUnits;
+        average = (double) totalGrade/totalUnits;
 
-        System.out.print("Your Average Grade = "+average+"  ");
+        System.out.println(totalGrade +"  "+ totalUnits);
+
+        System.out.println("Your Average Grade = "+average);
         if(average >= 85){
             System.out.println("Congratulations! You belong to the dean's list. ");
         }
